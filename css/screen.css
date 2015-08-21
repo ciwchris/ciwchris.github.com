@@ -1,0 +1,182 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alegreya';
+}
+
+body {
+    color: #4d3600;
+    background-color: #fffcf5;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.container {
+    max-width: 1000px;
+}
+
+.container a,
+.container a:active,
+.container a:hover {
+    color: #ffd77a;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.navbar-default {
+    background-color: #fffcf5;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Alegreya';
+    font-size: 22;
+}
+
+.navbar-default .navbar-nav .active a {
+    background-color: transparent;
+    font-size: 26px;
+}
+
+
+.navbar-default .container .navbar-toggle{
+    background-color: transparent;
+    border-color: #ffd77a;
+}
+
+.navbar-default .container .navbar-toggle:hover{
+    background-color: #ffeab8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffd77a;
+}
+
+.navbar-default .container .navbar-nav .open a:hover,
+.navbar-default .container .navbar-nav .open a:focus,
+.navbar-default .container .navbar-nav>li>a:hover,
+.navbar-default .container .navbar-nav>li>a:focus {
+    background-color: transparent;
+}
+
+#content {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+
+#post-tags {
+    margin-top: 30px;
+}
+
+#prev-next {
+    padding: 15px 0;
+}
+
+.post-header {
+    margin-bottom: 20px;
+}
+.post-header h2 {
+    font-size: 32px;
+}
+
+#post-meta {
+    font-size: 14px;
+    color: rgba(0,0,0,0.4)
+}
+
+#page-header {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+}
+#page-header h2 {
+    font-size: 32px;
+}
+
+pre {
+    overflow-x: auto;
+}
+pre code {
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+code {
+    color: #ea6100;
+}
+
+pre, code, .hljs {
+    background-color: #fffcf5;
+}
+
+/* http://www.bootply.com/103172 */
+@media (min-width:1024px) { 
+    .navbar > .container {
+        text-align: center;
+    }
+    .navbar-header,.navbar-brand,.navbar .navbar-nav,.navbar .navbar-nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .collapse.navbar-collapse {
+        float: none;
+        display: inline-block!important;
+        width: auto;
+        clear: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        min-height: 70px;
+    }
+    .dropdown-menu>li>a {
+        padding: 3px 20px;
+    }
+    .navbar-nav>li>a {
+        padding: 30px 20px;
+    }
+}
+
+@media (min-width: 400px) {
+    .navbar-default .navbar-brand {
+        font-size: 36px;
+        padding: 25px 15px;
+    }
+    #content{
+        margin-top: 30px;
+        padding: 50px 75px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+}
+
+@media (max-width: 399px) {
+    body{
+        font-size: 14px;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 30px;
+    }
+    #content{
+        padding: 15px;
+    }
+    #post-meta .right {
+        float:left;
+        text-align: left;
+    }
+}
